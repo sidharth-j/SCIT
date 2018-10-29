@@ -14,8 +14,8 @@ plt.show()
 
 data= []                                          #for q3
 for i in range(100):
-    a=np.random.randint(0,1000)
-    avg=(p[a]+s[a])/2
+    r = np.random.randint(0,1000)
+    avg = (p[r]+s[r])/2
     data.append(avg)
 
 plt.hist(data,density=True)
